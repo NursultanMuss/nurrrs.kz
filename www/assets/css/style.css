@@ -493,41 +493,61 @@ html.fsvs {
       -webkit-perspective: 1000; }
   html.fsvs #fsvs-pagination {
     margin: 0;
-    padding: 8px 4px;
+    /*padding: 8px 4px;*/
     position: fixed;
     height: auto;
     right: -100px;
     top: 50%;
     z-index: 999;
-    width: 32px; }
+    width: 35px; }
     html.fsvs #fsvs-pagination li {
       list-style: none;
-      width: 25px;
-      height: 25px;
-      line-height: 25px;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
       text-align: center;
-      margin: 0 0 2px 0;
+      margin-bottom: 20px;
       cursor: pointer; }
       html.fsvs #fsvs-pagination li > span {
-        border-radius: 100%;
-        width: 22px;
-        height: 22px;
-        line-height: 22px;
-        border: 1px solid white;
-        display: block; }
+border-radius: 100%;
+width: 22px;
+height: 22px;
+line-height: 22px;
+/*border: 1px solid white;*/
+display: block;
+        margin-left:auto;
+        margin-right: auto;
+        -webkit-transition: all 1.5s cubic-bezier(0.19,1,.22,1);
+        transition: all 1.5s cubic-bezier(0.19,1,.22,1);
+      }
         html.fsvs #fsvs-pagination li > span > span {
           border-radius: 100%;
-          width: 12px;
-          height: 12px;
-          line-height: 12px;
-          border: 1px solid white;
+          width: 10px;
+          height: 10px;
+          line-height: 10px;
           display: block;
-          margin: 4px; }
+          margin-left:auto;
+          margin-right:auto;
+          background-color: white;}
       html.fsvs #fsvs-pagination li.active > span {
-        border: 1px dashed white; }
-        html.fsvs #fsvs-pagination li.active > span > span {
-          background: white; }
-      html.fsvs #fsvs-pagination li:last-child {
-        margin: 0; }
+        border: 1px solid yellow;
+        width:  30px;
+        height: 30px;
+        line-height:30px;
+        border-radius: 100%;
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+        /*transform: translateX(-50%) scale(1);*/
+      }
+      html.fsvs #fsvs-pagination li.active > span > span {
+          background: #ffff00;
+          width:  20px;
+          height: 20px;
+          margin: 4px;
+          /*transform: translateX(-50%) translateY(-50%) scale(1);*/
+      }
+        html.fsvs #fsvs-pagination li:last-child {
+          margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
