@@ -1,10 +1,5 @@
-#first_slide{
-	background-color: #eb7347;
-}
-li{
-	display: list-item;
-}
 
+/*Scrollbar*/
 ::-webkit-scrollbar-button {
 	background-image:url('');
 	background-repeat:no-repeat;
@@ -36,44 +31,88 @@ li{
 ::-webkit-scrollbar{
 	width: 4px;
 }
-.second{
-	margin-left: 10px;
-	padding: 0;
-	list-style: none;
-}
-/*html.fsvs #fsvs-pagination li>span{*/
-	    /*-webkit-border-radius: 100%;*/
-    /*-moz-border-radius: 100%;*/
-    /*-ms-border-radius: 100%;*/
-    /*-o-border-radius: 100%;*/
-	/*border-radius: 100%;*/
-	/*width: 22px;*/
-	/*height: 22px;*/
-	/*line-height: 22px;*/
-	/*display:block*/
-/*}*/
+/*end of ScrollBar*/
+
+
+
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-#fsvs-body #first_slide{
-	background: url("image/main-page-2.jpg") repeat fixed 100% 0% / cover;
-  text-align: center;
+
+/* Menu styling */
+.icon-close {
+	cursor: pointer;
+	padding-right: 5%;
+	padding-top: 5%;
+	text-align: right;
 }
-#fsvs-body #second_slide{
-	background: url("image/main-page-3.jpg") repeat 100% 0% / cover;
-	text-align: center;
+.toggled .icon-menu{
+	left: 64px;
+	z-index: 10;
 }
-#fsvs-body #third_slide{
-	background: url("image/main-page-4.jpg") repeat 100% 0% / cover;
+.icon-menu {
+	position: fixed;
+	top: 7%;
+	z-index: 0;
 }
-#fsvs-body #forth_slide{
-	background: url("image/main-page-5.jpg") repeat 100% 0% / cover;
+.icon-menu .bar{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	cursor: pointer;
 }
-#company_first_slide{
-	background: url("image/page_ab_company.jpg") repeat 100% 0% / cover;
+.icon-menu .menuGreengoLogo{
+	display:inline-block;
+	vertical-align:	middle;
+
 }
+.sidebar-wrapper .menuGreengoLogo{
+	margin-top:20%;
+	margin-bottom: 12%;
+}
+.well{
+	background-color: inherit;
+	border:none;
+	padding: 0px;
+	margin-bottom: 0px;
+	-webkit-box-shadow: none;
+}
+.menuBottom .content{
+	color: #fff;
+}
+.telContacts > div, p{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.emailAddres > div, p{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.social-links> div{
+	margin-top: 8%;
+	display: inline-block;
+	margin-right: 60px;
+}
+.social-links> div:last-child{
+	margin-right: 0;
+}
+.second{
+	margin-left: 25px;
+	padding: 0;
+	list-style: none;
+}
+ul.second > li{
+	font-size: 12px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+/*End of Menu Styling*/
+
+/*Pages content*/
 .page_logo{
 	width:75%;
 	margin-top:14%;
@@ -141,67 +180,24 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 }
-/* Basic styling */
+/*end of Pages content*/
 
-.icon-close {
-  cursor: pointer;
-  padding-right: 5%;
-  padding-top: 5%;
-  text-align: right;
+#fsvs-body #first_slide{
+	background: url("image/main-page-2.jpg") repeat fixed 100% 0% / cover;
+	text-align: center;
 }
-.toggled .icon-menu{
-	left: 64px;
-	z-index: 10;
+#fsvs-body #second_slide{
+	background: url("image/main-page-3.jpg") repeat 100% 0% / cover;
+	text-align: center;
 }
-.icon-menu {
-  position: fixed;
-  top: 7%;
-z-index: 0;
+#fsvs-body #third_slide{
+	background: url("image/main-page-4.jpg") repeat 100% 0% / cover;
 }
-.icon-menu .bar{
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 8px;
-	cursor: pointer;
+#fsvs-body #forth_slide{
+	background: url("image/main-page-5.jpg") repeat 100% 0% / cover;
 }
-.icon-menu .menuGreengoLogo{
-	display:inline-block;
-	vertical-align:	middle;
-	
-}
-.sidebar-wrapper .menuGreengoLogo{
-	margin-top:20%;
-	margin-bottom: 12%;
-}
-.well{
-		background-color: inherit;
-		border:none;
-		padding: 0px;
-		margin-bottom: 0px;
-		-webkit-box-shadow: none;
-		}
-		
-		/* Last doing*/
-.menuBottom .content{
-	color: #fff;
-}
-.telContacts > div, p{
-	display:inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-.emailAddres > div, p{
-	display:inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-	.social-links> div{
-		margin-top: 8%;
-		display: inline-block;
-		margin-right: 60px;
-	}
-.social-links> div:last-child{
-	margin-right: 0;
+#company_first_slide{
+	background: url("image/page_ab_company.jpg") repeat 100% 0% / cover;
 }
 #forth_slide .col-lg-5{
 	display:none;
@@ -218,4 +214,17 @@ z-index: 0;
 	z-index: 10;
 	right: 41px;
 	top: 50%;
+}
+/*Page - About company*/
+#first_slide_company{
+	background: url("image/ab_company.jpg") repeat 100% 0% / cover;
+}
+#second_slide_company{
+	background: url("image/achievments.jpg") repeat 100% 0% / cover;
+}
+#third_slide_company{
+	background:	url("image/mission.jpg") repeat 100% 0% / cover;
+}
+#forth_slide_company{
+	background:	url("image/command.jpg") repeat 100% 0% / cover;
 }
