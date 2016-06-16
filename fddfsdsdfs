@@ -1,0 +1,55 @@
+[33mcommit 0feb82b87d60875d5c51e5ace073a54f5dfb582c[m
+Reflog: HEAD@{0} (NursMuss <nursalga@gmail.com>)
+Reflog message: reset: moving to HEAD~1
+Author: NursultanMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 09:42:39 2016 +0600
+
+    Initial commit
+
+[33mcommit c9c6032431e0244a0f1ce6d737e672a0b2fcbf45[m
+Reflog: HEAD@{1} (NursMuss <nursalga@gmail.com>)
+Reflog message: reset: moving to HEAD~2
+Author: NursMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 09:49:42 2016 +0600
+
+    Add project
+
+[33mcommit 86fca87e98799d41881da5865d1fca89d36d8987[m
+Reflog: HEAD@{2} (NursMuss <nursalga@gmail.com>)
+Reflog message: checkout: moving from master to master
+Author: NursMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 14:34:14 2016 +0600
+
+    13.06.2016 14:34 Greengo Office
+
+[33mcommit 86fca87e98799d41881da5865d1fca89d36d8987[m
+Reflog: HEAD@{3} (NursMuss <nursalga@gmail.com>)
+Reflog message: commit: 13.06.2016 14:34 Greengo Office
+Author: NursMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 14:34:14 2016 +0600
+
+    13.06.2016 14:34 Greengo Office
+
+[33mcommit fa43e6fbe24b0b73f03dd24a0d08c33a77464ee8[m
+Reflog: HEAD@{4} (NursMuss <nursalga@gmail.com>)
+Reflog message: commit: Add PHP Storm .idea
+Author: NursMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 10:04:47 2016 +0600
+
+    Add PHP Storm .idea
+
+[33mcommit c9c6032431e0244a0f1ce6d737e672a0b2fcbf45[m
+Reflog: HEAD@{5} (NursMuss <nursalga@gmail.com>)
+Reflog message: commit: Add project
+Author: NursMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 09:49:42 2016 +0600
+
+    Add project
+
+[33mcommit 0feb82b87d60875d5c51e5ace073a54f5dfb582c[m
+Reflog: HEAD@{6} (NursMuss <nursalga@gmail.com>)
+Reflog message: clone: from https://github.com/NursultanMuss/nurrrs.kz.git
+Author: NursultanMuss <nursalga@gmail.com>
+Date:   Mon Jun 13 09:42:39 2016 +0600
+
+    Initial commit

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html class="fsvs" lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>О компании</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="style1.css" media="all" type="text/css">
+</head>
+<body>
+<div id="fsvs-body">
+	<!--Slider About Company -->
+	<div class="slide" id="company_first_slide" style="background: red">
+		<div class="content">
+			<div class="Page1content">
+				<div class="logoSeo"></div>
+				<div class="prodvizhenie">продвижение вашего сайта в самых популярных поисковых системах</div>
+				<div class="googleYandex">
+					<p class="google"></p>
+					<p class="Yandex"></p>
+				</div>
+				<div class="dostizhenia">
+					<div class="col-1">
+						<div class="graphik"></div>
+						<div class="discription"><b>БОЛЕЕ 90 КЛИЕНТОВ</b><br> ЕЖЕГОДНО</div>
+					</div>
+					<div class="col-1">
+						<div class="superMan"></div>
+						<div class="discription"><b>Одна из сильнейших</b><br>IT-команд в казахстане</div>
+					</div>
+					<div class="col-1">
+						<div class="lamp"></div>
+						<div class="discription"><b>Инновационные технологии</b><br>в создании и продвижении сайтов
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="strelka"></div>
+		</div>
+	</div>
+
+
+	<div class="slide" id="company_second_slide" style="background: blue">
+		<div class="content">
+
+			<div class="Page1content">
+				<div class="logoSeo"></div>
+				<div class="prodvizhenie">создание адаптивных сайтов, оптимизированных под мобильные платформы<br>разработка
+					интернет магазинов на популярных фреймворках yii2, ruby
+				</div>
+				<div class="googleYandex">
+					<p class="google"></p>
+					<p class="Yandex"></p>
+				</div>
+				<div class="dostizhenia">
+					<div class="col-1">
+						<div class="graphik"></div>
+						<div class="discription"><b>БОЛЕЕ 90 КЛИЕНТОВ</b><br> ЕЖЕГОДНО</div>
+					</div>
+					<div class="col-1">
+						<div class="superMan"></div>
+						<div class="discription"><b>Одна из сильнейших</b><br>IT-команд в казахстане</div>
+					</div>
+					<div class="col-1">
+						<div class="lamp"></div>
+						<div class="discription"><b>Инновационные технологии</b><br>в создании и продвижении сайтов
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<div class="slide" id="company_third_slide"></div>
+	<div class="slide" id="company_forth_slide"></div>
+</div>
+<ul id="fsvs-pagination" style="margin-top: -53px; right:25px;">
+	<li class="pagination-link"><span style="transition: all 1s;"><span style="transition: all 1s;"></span></span></li>
+	<li class="pagination-link"><span style="transition: all 1s;"><span style="transition: all 1s;"></span></span></li>
+	<li class="pagination-link"><span style="transition: all 1s;"><span style="transition: all 1s;"></span></span></li>
+	<li class="pagination-link"><span style="transition: all 1s;"><span style="transition: all 1s;"></span></span></li>
+</ul>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="assets/js/leftSideMenu.js"></script>
+	<script src="assets/js/bundle.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script>
+
+	var slider = $.fn.fsvs({
+        speed : 700,
+        bodyID : 'fsvs-body',
+        selector : '> .slide',
+        mouseSwipeDisance : 80,
+        afterSlide : function(){},
+        beforeSlide : function(){},
+        endSlide : function(){},
+        mouseWheelEvents : true,
+        mouseWheelDelay : false,
+        scrollableArea : 'scrollable',
+        mouseDragEvents : true,
+        touchEvents : true,
+        arrowKeyEvents : true,
+        pagination : true,
+        nthClasses : false,
+        detectHash : true
+    });
+	</script>
+</body>
+</html>

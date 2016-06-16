@@ -1,0 +1,221 @@
+#first_slide{
+	background-color: #eb7347;
+}
+li{
+	display: list-item;
+}
+
+::-webkit-scrollbar-button {
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:5px;
+	height:0px
+}
+
+::-webkit-scrollbar-track {
+	background-color:#ecedee
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background-color:#6dc0c8;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color:#56999f;
+}
+
+::-webkit-resizer{
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:4px;
+	height:0px
+}
+
+::-webkit-scrollbar{
+	width: 4px;
+}
+.second{
+	margin-left: 10px;
+	padding: 0;
+	list-style: none;
+}
+/*html.fsvs #fsvs-pagination li>span{*/
+	    /*-webkit-border-radius: 100%;*/
+    /*-moz-border-radius: 100%;*/
+    /*-ms-border-radius: 100%;*/
+    /*-o-border-radius: 100%;*/
+	/*border-radius: 100%;*/
+	/*width: 22px;*/
+	/*height: 22px;*/
+	/*line-height: 22px;*/
+	/*display:block*/
+/*}*/
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#fsvs-body #first_slide{
+	background: url("image/main-page-2.jpg") repeat fixed 100% 0% / cover;
+  text-align: center;
+}
+#fsvs-body #second_slide{
+	background: url("image/main-page-3.jpg") repeat 100% 0% / cover;
+	text-align: center;
+}
+#fsvs-body #third_slide{
+	background: url("image/main-page-4.jpg") repeat 100% 0% / cover;
+}
+#fsvs-body #forth_slide{
+	background: url("image/main-page-5.jpg") repeat 100% 0% / cover;
+}
+#company_first_slide{
+	background: url("image/page_ab_company.jpg") repeat 100% 0% / cover;
+}
+.page_logo{
+	width:75%;
+	margin-top:14%;
+}
+.Page1content{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+.slide_text{
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+.slide_graphiks{
+	margin: 15px 0;
+}
+.googleYandex{
+	    margin-top: 20px;
+    vertical-align: baseline;
+}
+.google{
+	display:inline-block;
+	margin-right:10px;
+}
+.Yandex{
+	display:inline-block;
+}
+.dostizhenia{
+	margin-top: 10px;
+	text-align:center;
+}
+.col-1{
+	display:inline-block;
+	margin-right: 20px;
+}
+.col-1:last-child{
+	margin-right: 0px;
+}
+.col-1 .graphik{
+	display: inline-block;
+}
+.col-1 .superMan{
+	display: inline-block;
+}
+.col-1 .lamp{
+	display: inline-block;
+}
+.discription{
+	text-transform:uppercase;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align:left;
+	display: inline-block;
+}
+.strelka{
+	position:absolute;
+	bottom: 8px;
+	left:50%;
+}
+.woman{
+	display:block;
+	margin-top : 21%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Basic styling */
+
+.icon-close {
+  cursor: pointer;
+  padding-right: 5%;
+  padding-top: 5%;
+  text-align: right;
+}
+.toggled .icon-menu{
+	left: 64px;
+	z-index: 10;
+}
+.icon-menu {
+  position: fixed;
+  top: 7%;
+z-index: 0;
+}
+.icon-menu .bar{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	cursor: pointer;
+}
+.icon-menu .menuGreengoLogo{
+	display:inline-block;
+	vertical-align:	middle;
+	
+}
+.sidebar-wrapper .menuGreengoLogo{
+	margin-top:20%;
+	margin-bottom: 12%;
+}
+.well{
+		background-color: inherit;
+		border:none;
+		padding: 0px;
+		margin-bottom: 0px;
+		-webkit-box-shadow: none;
+		}
+		
+		/* Last doing*/
+.menuBottom .content{
+	color: #fff;
+}
+.telContacts > div, p{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.emailAddres > div, p{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	.social-links> div{
+		margin-top: 8%;
+		display: inline-block;
+		margin-right: 60px;
+	}
+.social-links> div:last-child{
+	margin-right: 0;
+}
+#forth_slide .col-lg-5{
+	display:none;
+}
+.toggled #forth_slide .col-lg-5{
+	display: block;
+}
+.vline{
+	background: #FFFFFF;
+	width: 2px;
+	position: absolute;
+	height: 169px;
+	opacity: 1;
+	z-index: 10;
+	right: 41px;
+	top: 50%;
+}

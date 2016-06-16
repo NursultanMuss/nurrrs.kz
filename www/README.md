@@ -1,0 +1,2 @@
+# greengo
+site Greengo.kz
