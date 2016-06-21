@@ -39,7 +39,7 @@
 
 .page-content-wrapper {
     /*width: 100%;*/
-    /*position: absolute;*/
+    position: absolute;
     /*padding: 15px;*/
 }
 
@@ -74,11 +74,22 @@
     text-decoration: none;
     color: #fff;
     background: #961f1f;
+    padding-left: 10px;
+}
+.sidebar-nav li a:focus{
+    background: #961f1f;
 }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
+}
+.sidebar-nav.toggled > li{
+    line-height: 25px;
+}
+.sidebar-nav.toggled li a:active,
+.sidebar-nav.toggled li a:focus{
+    line-height:40px;
 }
 
 .sidebar-nav > .sidebar-brand {
@@ -116,6 +127,7 @@
     .page-content-wrapper {
         /*padding: 20px;*/
         position: relative;
+        /*width: 100%;*/
     }
 
     .wrapper.toggled .page-content-wrapper {

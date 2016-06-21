@@ -480,15 +480,15 @@ html.fsvs {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     position: absolute;
-    /*top: 0;
-    left: 0;
-    */z-index: 1;
+    /*top: 0;*/
+    /*left: 0;*/
+    z-index: 1;
     height: 100%;
-    /*width: 100%; */
+    width: 100%;
   }
     html.fsvs #fsvs-body > * {
       height: 100%;
-      /*width: 100%;*/
+      width: 100%;
       overflow: hidden;
       -webkit-backface-visibility: hidden;
       -webkit-perspective: 1000; }

@@ -1,10 +1,12 @@
-
+body{
+	color: #FFFFFF;
+}
 /*Scrollbar*/
 ::-webkit-scrollbar-button {
 	background-image:url('');
 	background-repeat:no-repeat;
 	width:5px;
-	height:0px
+	height:0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +31,7 @@
 }
 
 ::-webkit-scrollbar{
-	width: 4px;
+	width: 10px;
 }
 /*end of ScrollBar*/
 
@@ -172,7 +174,7 @@ ul.second > li{
 .strelka{
 	position:absolute;
 	bottom: 8px;
-	left:50%;
+	left: 42%;
 }
 .woman{
 	display:block;
@@ -205,6 +207,24 @@ ul.second > li{
 .toggled #forth_slide .col-lg-5{
 	display: block;
 }
+#third_slide .col-lg-5{
+	display:none;
+}
+.toggled #third_slide .col-lg-5{
+	display: block;
+}
+#second_slide .col-lg-5{
+	display:none;
+}
+.toggled #second_slide .col-lg-5{
+	display: block;
+}
+#first_slide .col-lg-5{
+	display:none;
+}
+.toggled #first_slide .col-lg-5{
+	display: block;
+}
 .vline{
 	background: #FFFFFF;
 	width: 2px;
@@ -228,3 +248,143 @@ ul.second > li{
 #forth_slide_company{
 	background:	url("image/command.jpg") repeat 100% 0% / cover;
 }
+
+
+
+#forth_slide_company .col-lg-5{
+	display:none;
+}
+.toggled #forth_slide_company .col-lg-5{
+	display: block;
+}
+#third_slide_company .col-lg-5{
+	display:none;
+}
+.toggled #third_slide_company .col-lg-5{
+	display: block;
+}
+#second_slide_company .col-lg-5{
+	display:none;
+}
+.toggled #second_slide_company .col-lg-5{
+	display: block;
+}
+#first_slide_company .col-lg-5{
+	display:none;
+}
+.toggled #first_slide_company .col-lg-5{
+	display: block;
+}
+
+.pageText{
+	font-family:'Candara';
+	margin-top: 16%;
+	margin-left: 125px;
+
+}
+.pageText h1{
+	font-size: 100px;
+	font-weight: 700;
+	text-transform: Uppercase;
+	font-family: 'condensbold';
+}
+.pageText p{
+	font-size: 16px;
+}
+.pageText h1{
+	margin-bottom: 20px;
+}
+.pageText h2,h3,h4,h5,h6{
+	margin-bottom: 0px;
+	text-transform: Uppercase;
+}
+.mailBox{
+	margin-left: 130px;
+	border: 2px solid white;
+	display: inline-block;
+	margin-top: 4%;
+	padding: 10px 15px 3px;
+}
+.strelka h4{
+	margin-bottom: 20px;
+}
+
+@font-face {
+	font-family: 'condensbold';
+	src: url('fonts/condens-bold.eot');
+	src: url('fonts/condens-bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/condens-bold.woff') format('woff'),
+	url('fonts/condens-bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'condensbold_italic';
+	src: url('fonts/condens-bold-italic.eot');
+	src: url('fonts/condens-bold-italic.eot?#iefix') format('embedded-opentype'),
+	url('fonts/condens-bold-italic.woff') format('woff'),
+	url('fonts/condens-bold-italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Condens-BoldItalic';
+	src: url('fonts/Condens-BoldItalic.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Condens-BoldItalic.woff') format('woff'),
+	url('fonts/Condens-BoldItalic.ttf') format('truetype'),
+	url('fonts/Condens-BoldItalic.svg#Condens-BoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family:'Candara';
+	src: url('fonts/Candara.ttf') format('truetype'),
+	url('fonts/Candara.eot') format('embedded-opentype'),
+	url('fonts/Candara.svg') format('svg'),
+	url('fonts/Candara.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*End of About Company Page*/
+
+/*Project page*/
+/*.hidden_project{*/
+	/*position:absolute;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*background: rgba(255,255,255,0.4);*/
+	/*opacity: 0;*/
+	/*filter: alpha(opacity=0);*/
+/*}*/
+/*.hidden_project:hover{*/
+	/*opacity: 1;*/
+	/*filter: alpha(opacity=100);*/
+	/*-webkit-transition: opacity .15s ease-in-out;*/
+	/*-moz-transition: opacity .15s ease-in-out;*/
+	/*-ms-transition: opacity .15s ease-in-out;*/
+	/*-o-transition: opacity .15s ease-in-out;*/
+	/*transition: opacity .15s ease-in-out;*/
+/*}*/
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+.hidden_project{
+	position:absolute;
+	width:100%;
+	height: 100%;
+	background: rgba(241, 244, 255, 0.41);
+	opacity: 0;
+	filter: alpha(opacity=100);
+}
+.project_img:hover img{
+	-webkit-filter: invert(40%);
+	-moz-filter: invert(40%);
+	-ms-filter: invert(40%);
+	-o-filter: invert(40%);
+	filter: invert(40%);
+	filter: gray; /* IE 6-9 */
+}
+
