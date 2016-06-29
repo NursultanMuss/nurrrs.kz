@@ -174,14 +174,14 @@
         </div>
         <p>Ваша заявка</p>
     <form name="zayavka" method="post" action="">
-        <div class="input-group" style="padding: 20px;">
+        <div class="input-group" style="padding: 0px 35px 25px 25px;">
             <input type="text" class="form-control" value="Ваше имя" name="Name" onfocus="if (this.value == 'Ваше имя') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Ваше имя';}">
             <input type="text" class="form-control" value="Эл. почта" name="email" onfocus="if (this.value == 'Эл. почта') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Эл. почта';}">
             <input type="text" class="form-control" value="Телефон" name="phone Number" onfocus="if (this.value == 'Телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Телефон';}">
-            <textarea type="text" class="form-control" value="Текст сообщения" name="Text" onfocus="if (this.value == 'Текст сообщения') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Текст сообщения';}">
+            <textarea rows="6" cols="20" placeholder="Текст сообщения" type="text" class="form-control" name="Text">
                 </textarea>
         </div>
-        <input type="submit" class="btn btn-default" id="submit button" value="отправить заявку">
+        <input type="submit" class="btn btn-default center-block" id="submit button" value="отправить заявку" style="background: #961f1f; text-transform: uppercase; font: 35px condensbold; color: #ffffff;">
     </form>
 
 </div>
@@ -197,7 +197,7 @@
         e.preventDefault();
         $(".wrapper").toggleClass("toggled");
     });
-    $(".zayavka").click(function (e){
+    $(".comment").click(function (e){
         e.preventDefault();
         $(".wrapper").toggleClass("toggled2");
     });

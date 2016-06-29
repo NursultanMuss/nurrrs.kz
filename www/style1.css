@@ -397,24 +397,26 @@ ul.second > li{
 	position: absolute;
 	right: -48px;
 	top: 50%;
-	font-family: "Condens";
+	font-family: condensbold;
 	font-size: 56px;
 	color: #ff2d2d;
 	text-transform: uppercase;
+	cursor: default;
+}
+.right_slide p{
+	font-family:condensbold ;
 }
 .comment{
+	cursor: pointer;
 	position:absolute;
 	right: 40px;
 	top: 50%;
-}
-.zayavka{
-	cursor: pointer;
 }
 .look_at_the_map{
 	position: absolute;
 	bottom: 10px;
 	right: 50%;
-	margin-right: -125px;
+	margin-right: -130px;
 	margin-bottom: 0px;
 	-webkit-transition-timing-function: linear;
 	-o-transition-timing-function:linear;
@@ -446,17 +448,18 @@ ul.second > li{
 	transition: all 0.5s ease;
 }
 .phorma_zayavki .comment{
-	margin: 100px 0 20px 0;
+	margin: 68px 0 12px 0;
 	position: relative;
 	top:0;
 	right: 0;
 }
+
 .phorma_zayavki p {
 	display:block;
 	text-align: center;
 	color: #ffffff;
 	font-family:condensbold;
-	font-size: 65px;
+	font-size: 50px;
 	text-transform: uppercase;
 	line-height: 1;
 }
@@ -466,9 +469,17 @@ ul.second > li{
 	height:40px;
 	background: #ff2d2d;
 	color: #ffffff;
+	padding:5px 10px 5px;
 }
-.phorma_zayavki input.form-control:last-child{
-	height:80px;
+.phorma_zayavki textarea{
+	background: #ff2d2d;
+	border: solid #961f1f 4px;
+	color: #ffffff;
+	padding:5px 10px 5px;
+}
+.
+.phorma_zayavki .podtv{
+
 }
 .wrapper.toggled2 .phorma_zayavki {
 	width:400px;
